@@ -4,12 +4,13 @@ body {
   color: hwb(0 0% 100%);
   margin: 0;
   padding: 0;
+  text-align: center;
 }
-
 header {
-  background-color: #ff0000;
+  background-color: #959595e4;
   color: #ffffff;
   padding: 20px;
+  text-align: center;
 }
 
 header nav ul {
@@ -17,10 +18,12 @@ header nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  text-align: center;
 }
 
 header nav ul li {
   margin: 0 10px;
+  text-align: center;
 }
 
 header nav ul li a {
@@ -42,10 +45,27 @@ main h1 {
   font-size: 36px;
   margin: 0;
 }
+main h2 {
+    color: #ff0000;
+    font-size: 36px;
+    margin: 70px;
+  }
+<style>
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: 0px;
+        right: 5px;
+        height: 60px;
+        width: 175px;
+    }
+</style>
 
 main p {
-  font-size: 18px;
-  margin: 20px 0;
+  font-size: 24px;
+  margin: 10px 0;
 }
 
 button {
@@ -57,7 +77,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px 2px;
   cursor: pointer;
 }
 
